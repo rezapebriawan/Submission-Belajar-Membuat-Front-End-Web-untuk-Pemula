@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0B1320;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contact-box {
+  background: #F3F6FA;
+  display: flex;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #AFC1D0;
+  color: #0B1320;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.container p {
+  margin-bottom: 40px;
+  color: white;
+}
+  
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+
+.tb_button_simpan{
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.tb_button_cari {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.selesaidibacalabel {
+  float: left;
+}
+
+.selesaidibaca {
+  float: right;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+/* comments 
+.button-kirim {
+  background: #1c00b5;
+  width: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 10  px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+*/
+
+.button-simpan {
+  background-color: #0B1320;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  float: right;
+}
+
+.button-cari {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #0B1320;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  float: right;
+} 
+
+.contact-left h3 {
+  font-size: 25px;
+  color: #0B1320;
+  font-weight: 600px;
+  margin-bottom: 30px;
+}
+
+.contact-right h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.search_section {
+ margin-bottom: 0px;
+ color: #0B1320;
+}
+
+.cari_buku_h3 {
+ height: 35px;
+ width: auto;
+ margin: 0px;
+ margin-bottom: 10px;
+ color: #0B1320;
+}
+
+.masukkan_buku_h3 {
+ height: 35px;
+ width: auto;
+ margin: 0px;
+ margin-bottom: 10px;
+}
+
+.judul_form {
+  height: auto;
+ width: auto;
+ margin: 0px;
+}
